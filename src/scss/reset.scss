@@ -1,0 +1,41 @@
+/*! Сбрасываем стили браузеров (user) | by agancy makbori */
+body, p, span, html, img, h1, h2, 
+h3, h4, h5, h6, strong, *, ul, li, 
+ol, input, form, header, head, footer, 
+main, section, div, video, article, table, 
+td, th, menu, nav, video, time, output, audio, 
+summary, code, address, blockquote, code {
+    padding: 0;
+    margin: 0;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Acrom';
+    font-style: normal;
+}
+/*! Картинки будут занимать всю ширину родительского блока */
+img {
+    max-width: 100%;
+}
+/*! Убрали подчеркивание у ссылок */
+a {
+    text-decoration: none;
+}
+/*! Убрали ::marker у списков */
+ol, ul {
+    list-style: none;
+}
+/*! Сбросили все стили с кнопки */
+button {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+/*! Стили для таблицы (убрали двойнную обводку) */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input {outline:none;}
+textarea {outline:none;}

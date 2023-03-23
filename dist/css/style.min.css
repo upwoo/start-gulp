@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "magnific-popup.css";
+@font-face {
+  font-family: "Acrom";
+  src: url("../fonts/Acrom-Light.eot");
+  src: local("Acrom Light"), local("Acrom-Light"), url("../fonts/Acrom-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Acrom-Light.woff2") format("woff2"), url("../fonts/Acrom-Light.woff") format("woff"), url("../fonts/Acrom-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Acrom";
+  src: url("../fonts/Acrom-Thin.eot");
+  src: local("Acrom Thin"), local("Acrom-Thin"), url("../fonts/Acrom-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Acrom-Thin.woff2") format("woff2"), url("../fonts/Acrom-Thin.woff") format("woff"), url("../fonts/Acrom-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Acrom";
+  src: url("../fonts/Acrom-Bold.eot");
+  src: local("Acrom Bold"), local("Acrom-Bold"), url("../fonts/Acrom-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Acrom-Bold.woff2") format("woff2"), url("../fonts/Acrom-Bold.woff") format("woff"), url("../fonts/Acrom-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Acrom";
+  src: url("../fonts/Acrom-Regular.eot");
+  src: local("Acrom"), local("Acrom-Regular"), url("../fonts/Acrom-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Acrom-Regular.woff2") format("woff2"), url("../fonts/Acrom-Regular.woff") format("woff"), url("../fonts/Acrom-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Acrom";
+  src: url("../fonts/Acrom-ExtraBold.eot");
+  src: local("Acrom ExtraBold"), local("Acrom-ExtraBold"), url("../fonts/Acrom-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Acrom-ExtraBold.woff2") format("woff2"), url("../fonts/Acrom-ExtraBold.woff") format("woff"), url("../fonts/Acrom-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Acrom";
+  src: url("../fonts/Acrom-Medium.eot");
+  src: local("Acrom Medium"), local("Acrom-Medium"), url("../fonts/Acrom-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Acrom-Medium.woff2") format("woff2"), url("../fonts/Acrom-Medium.woff") format("woff"), url("../fonts/Acrom-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+/*! Сбрасываем стили браузеров (user) | by agancy makbori */
+body, p, span, html, img, h1, h2,
+h3, h4, h5, h6, strong, *, ul, li,
+ol, input, form, header, head, footer,
+main, section, div, video, article, table,
+td, th, menu, nav, video, time, output, audio,
+summary, code, address, blockquote, code {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Acrom";
+  font-style: normal;
+}
+
+/*! Картинки будут занимать всю ширину родительского блока */
+img {
+  max-width: 100%;
+}
+
+/*! Убрали подчеркивание у ссылок */
+a {
+  text-decoration: none;
+}
+
+/*! Убрали ::marker у списков */
+ol, ul {
+  list-style: none;
+}
+
+/*! Сбросили все стили с кнопки */
+button {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+/*! Стили для таблицы (убрали двойнную обводку) */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  outline: none;
+}
+
+textarea {
+  outline: none;
+}
+
+body {
+  font-family: "Acrom", sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+a {
+  color: #000;
+}
+
+ul.nav-menu {
+  display: flex;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.al-center {
+  align-items: center;
+}
+
+.sp-between {
+  justify-content: space-between;
+}
+
+.sp-end {
+  justify-content: flex-end;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.f-start {
+  align-items: flex-start;
+}
