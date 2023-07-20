@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T09:06:59.143Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.3" etag="zyfxc7OEXlWFOMzHQvlS" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-20T09:25:14.852Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="cn-cSg3x4v-qCNtpcJsq" version="21.6.3" type="github">
   <diagram name="Страница 1" id="potaPNY2CA8V14HwHhXg">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="2236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fg19fC0D28Z--4mv3MqF-23" value="&lt;h1&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Описание проекта&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Задача&lt;/b&gt;:&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Создать доску объявлений, для сдачи юр. адресов по всей России. У нас есть два клиента, первый это тот который сдает помещение, второй клиент тот кто ищет помещение. Также нужно проверять опубликованные адреса на массовость, т.е. у нас должна быть интеграция с ИФНС. Также должен быть классификатор так как адреса должны быть введены с точностью до конечного помещения. Предусмотреть возможность публикации постов в блог от имени администратора.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-1130" width="650" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fg19fC0D28Z--4mv3MqF-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="-790" as="sourcePoint" />
+            <mxPoint x="800" y="-790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fg19fC0D28Z--4mv3MqF-25" value="BackEnd: PHP / Laravel / MySQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-900" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fg19fC0D28Z--4mv3MqF-26" value="FrontEnd: Vue.js, HTML, JS, CSS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-900" width="230" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
